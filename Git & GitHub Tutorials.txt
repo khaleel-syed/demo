@@ -1,0 +1,21 @@
+Git & GitHub Tutorials
+-----------------------------------------
+
+Create a new Repository in GitHub
+
+Install Git in git.scm
+
+To check whether Git installed properly
+
+git --version 
+git status
+git init # For initialization of the repository
+
+For configuration
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+# To check whether user name configured or not
+git config --global user.name
+git config --global user.name "khale"
+
+ 
