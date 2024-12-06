@@ -9,13 +9,54 @@ To check whether Git installed properly
 
 git --version 
 git status
+git branch
+git branch -m main
+git remote -v
+
+------Step 1----------------------------
+
 git init # For initialization of the repository
 
-For configuration
+For configuration and Setup:
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
-# To check whether user name configured or not
+# To check whether user name  and email configured or not
 git config --global user.name
 git config --global user.name "khale"
+
+git config --global user.email
+
+-------Step 2-----------------------------
+
+Add files to staging environment
+
+https://git-scm.com/docs/git-add
+
+git add <file_name> # To add particular file
+
+git add . # To add all the files
+
+git commit -m "comment"
+
+
+-------Step 3------------------------------
+
+Push the file from local repository to GitHub Repository
+
+local repo------->GitHub repo
+
+git remote add origin https://github.com/khaleel-syed/demo.git
+git remov -v # To check fetch and push urls
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
 
  
